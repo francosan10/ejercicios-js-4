@@ -7,9 +7,11 @@ const auto = {
     anio: 2016,
     // metodos
     encendido: function() {
-        document.write(`Auto encendido`);
+        document.write('<p>Auto encendido</p><br>');
     },
     apagado: function() {
-        document.write(`Auto apagado`);
+        document.write('<p>Auto apagado</p><br>');
     }
 }
+auto.encendido();
+auto.apagado();
